@@ -1,6 +1,7 @@
 # --------------------------------------------------------------------------------------
 # 步骤 1: 使用 NCA Toolkit 的公共镜像作为基础镜像
-FROM stephengpope/no-code-architects-toolkit:latest
+# FROM stephengpope/no-code-architects-toolkit:latest
+FROM crpi-dq671y1becan1m58.cn-shanghai.personal.cr.aliyuncs.com/nca-toolkit-ns/base-nca:latest
 
 # --------------------------------------------------------------------------------------
 # ❗ 关键修复：强制切换到 root 用户来执行系统级的安装命令
